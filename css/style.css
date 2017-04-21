@@ -1,0 +1,56 @@
+#header {
+	margin: 20px auto 20px auto;
+}
+
+#grid-space {
+	width: 45vw;
+	height: 45vw;
+	max-width: 1200px;
+	max-height: 1200px;
+	border-style: solid;
+	margin: 50px auto 50px auto;
+	display: flex;
+	flex-direction: column;
+}
+
+#grid-space>.row {
+	display: flex;
+	margin: auto;
+	width: 100%;
+	flex-direction: row;
+}
+
+#grid-space>.row>.block {
+	display: flex;
+	border: 1px solid grey;
+}
+
+.trail{
+	transition: all 0.5s ease-in-out 0.2s;
+}
+
+#toggles {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+
+button {
+	margin: 10px auto 10px auto;
+}
+
+#footer {
+	display: flex;
+	justify-content: space-around;
+	margin: 30px auto 20px auto;
+}
+
+#sub-footer {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+#sub-footer>h1 {
+	flex: 100%;
+}
